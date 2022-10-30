@@ -1,0 +1,22 @@
+{
+  "name": "graphqltutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords":[],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.5",
+    "apollo-server": "^3.10.3",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "subscriptions-transport-ws": "^0.11.0"
+  }
+}
